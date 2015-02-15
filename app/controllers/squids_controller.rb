@@ -41,7 +41,7 @@ class SquidsController < ApplicationController
     private
 
     def squid_params
-      params.require(:squid).permit(:name,:type,:age)
+      params.require(:squid).permit(:name,:squid_type,:age)
     end
 
     def set_squid

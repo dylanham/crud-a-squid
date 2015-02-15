@@ -1,6 +1,6 @@
 -@squids.each do |squid|
   %p= link_to squid.name, squid_path(squid)
-  %p= squid.type
+  %p= squid.squid_type
   %p= squid.age
   %p
     = link_to 'Edit', edit_squid_path(squid)
