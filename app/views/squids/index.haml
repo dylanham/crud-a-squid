@@ -1,7 +1,7 @@
 -@squids.each do |squid|
-  %p= link_to squid.name, squid_path(squid)
-  %p= squid.squid_type
-  %p= squid.age
+  %p= link_to "Name: #{squid.name}", squid_path(squid)
+  %p= "Type: #{squid.squid_type}"
+  %p= "Age: #{squid.age}"
   %p
     = link_to 'Edit', edit_squid_path(squid)
     = link_to 'Delete', squid_path(squid), method: :delete
