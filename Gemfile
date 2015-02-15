@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 gem 'haml'
 gem 'haml-rails'
+gem 'rails_12factor', group: :production
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
